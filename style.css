@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+body {
+  background-image: url(temperature.jpg);
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit: cover;
+  filter: blur(70);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.temp_calculator {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 4.5em;
+  color: rgb(253, 253, 253);
+  text-shadow: -2px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+  text-align: center;
+  font-family: Georgia;
+}
+
+.temp_calculator_input {
+  margin-top: 1.5em;
+  font-size: 3em;
+  color: white;
+  line-height: 1.5em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.calculator_value input {
+  font-size: 1.6rem;
+  width: 20%;
+  border-radius: 0.5rem;
+  padding: 4px;
+  font-weight: 600;
+}
+
+.calculator_input select {
+  font-size: 1.7rem;
+  padding: 3px;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.cal-btn {
+  margin: 3rem;
+  font-size: 2.5rem;
+  padding: 6px;
+  font-weight: 900;
+  border-radius: 0.8rem;
+  background-color: #987878;
+  color: rgb(241, 245, 248);
+  cursor: pointer;
+}
+.result_area input {
+  font-size: 1.8rem;
+  width: 35%;
+  border-radius: 0.5rem;
+  padding: 4px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 800px) {
+  .title {
+    font-weight: 900;
+    font-size: 2.5em;
+  }
+
+  .temp_calculator_input {
+    margin-top: 1em;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .calculator_value input {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 3px;
+  }
+
+  .calculator_input select {
+    font-size: 1rem;
+    padding: 3px;
+    font-weight: 600;
+  }
+  .cal-btn {
+    margin: 1rem;
+    font-size: 2rem;
+    padding: 4px;
+    font-weight: 800;
+  }
+  .result_area input {
+    font-size: 1.5rem;
+    width: 35%;
+  }
+}
