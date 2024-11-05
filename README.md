@@ -23,11 +23,11 @@ The Temperature Converter enables users to:
 ## 📸 Screenshots
 
 **Main Interface**  
-![Main Interface](./screenshots/main-interface.png)  
+![Main Interface](./screenshots/Screenshot%20(206).png)  
 *The input field where users can enter a temperature and select conversion units.*
 
 **Conversion Example**  
-![Conversion Example](./screenshots/conversion-example.png)  
+![Conversion Example](./screenshots/Screenshot%20(207).png)  
 *Shows a temperature converted from Celsius to Fahrenheit.*
 
 ## 🚀 How to Use
