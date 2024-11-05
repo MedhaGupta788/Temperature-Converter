@@ -34,6 +34,5 @@ The Temperature Converter enables users to:
 1. Enter the temperature value you want to convert.
 2. Select the unit of the input temperature (Celsius, Fahrenheit, or Kelvin).
 3. Select the unit to which you want to convert.
-4. View the converted temperature instantly.
+4. Click convert to view the converted temperature instantly.
 
-## 📂 Project Structure
